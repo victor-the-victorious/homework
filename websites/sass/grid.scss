@@ -1,0 +1,29 @@
+
+.col-1-of-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.col-1-of-3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 30px;
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 30rem;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
